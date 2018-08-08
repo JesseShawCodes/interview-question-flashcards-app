@@ -1,7 +1,5 @@
 JS
 
-What's the difference between JS and jQuery?
-
 Why would you use Event Delegation over Event Listeners
 
 What is hoisting? How does it work?
