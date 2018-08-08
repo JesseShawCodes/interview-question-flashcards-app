@@ -1,0 +1,13 @@
+[
+    {"HTML: What does a doctype do?": "DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications."},
+    {"HTML: What does semantic mean to you": "A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content."},
+    {"HTML: When would you use a div tag vs section,article,main,header,footer,aside,nav?":"The <div> element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript."},
+    {"CSS: What is the difference between classes and IDs in CSS?": "an ID can be used to identify one element, whereas a class can be used to identify more than one."},
+    {"CSS: What are the components that make up the CSS box model.": "Content, Padding, Border, Margin"},
+    {"CSS: What are some ways that inline elements are different from block level elements?": "Block level elements are usually higher order, parent elements in HTML"},
+    {"CSS: How do you center a block level element?": "margin: 0 auto;"},
+    {"CSS: What are media queries?": "Media queries are a CSS3 module allowing content rendering to adapt to conditions such as screen resolution (e.g. smartphone screen vs. computer screen)."},
+    {"CSS: What does `* { box-sizing: border-box; }` do?": "Width and height apply to all parts of all elements: content, padding and borders:"},
+    {"Git: What is Git and why should you use it": "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."}, 
+    {"Git: What's the difference between Git and GitHub?": "Git is a revision control system, a tool to manage your source code history. GitHub is a hosting service for Git repositories."}
+]
