@@ -1,25 +1,4 @@
-JS
-
-Why would you use Event Delegation over Event Listeners
-
-What is hoisting? How does it work?
-
-"What is prototypal inheritance? How does it work?"
-
-What is AJAX and why do we use it?
-
-What tools and techniques have you used when debugging JavaScript?
-
-How do methods differ from functions?
-
-
 Node
-
-What happens when you type a URL into your browser and hit enter? Walk me through the steps leading to a web page appearing.
-
-What methods are supported by REST?
-
-What's the difference between a PUT and a POST request?
 
 Why would you choose Node for a project? What kinds of projects is Node particularly well-suited for?
 

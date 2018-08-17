@@ -6,18 +6,18 @@ import Questionanswerpanel from './components/questionpanel.js'
 
 import Button from '@material-ui/core/Button';
 
-import FacebookLogin from 'react-facebook-login';
- 
+// import FacebookLogin from 'react-facebook-login';
+/*
 const responseFacebook = (response) => {
   console.log(response);
 }
-
+*/
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      number: 0
+      number: Math.floor(Math.random() * questionsData.length)
     };
     this.updateNumber = this.updateNumber.bind(this);
   }
@@ -50,13 +50,6 @@ class App extends Component {
         <Button variant="contained" color="secondary" onClick={this.updateNumber}>
           New Question
         </Button>
-        <FacebookLogin
-          appId="1088597931155576"
-          autoLoad={true}
-          fields="name,email,picture"
-          onClick={this.componentClicked()}
-          callback={responseFacebook} 
-        />
       </div>
     );
   }
