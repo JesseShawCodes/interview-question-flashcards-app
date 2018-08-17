@@ -10,6 +10,11 @@
     {"CSS: What does `* { box-sizing: border-box; }` do?": "Width and height apply to all parts of all elements: content, padding and borders:"},
     {"Git: What is Git and why should you use it": "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people."}, 
     {"Git: What's the difference between Git and GitHub?": "Git is a revision control system, a tool to manage your source code history. GitHub is a hosting service for Git repositories."},
-    {"What's the difference between JS and jQuery?": "JavaScript is a scripting language which is used within a browser for interface interactions. JQuery is a library of Javascript that simplifies event handling, animations etc. The only difference is that jQuery has been optimized to perform many common scripting functions in fewer lines of codes."},
-    {"Why would you use Event Delegation over Event Listeners": "When an element in the DOM is clicked, the event bubbles all the way up to the parent element (the document and then the window). This allows you to listen for events on the parent item and still detect clicks that happen inside it. Event delegation improves web performance and dynamically renders element."}
+    {"JS: What's the difference between JS and jQuery?": "JavaScript is a scripting language which is used within a browser for interface interactions. JQuery is a library of Javascript that simplifies event handling, animations etc. The only difference is that jQuery has been optimized to perform many common scripting functions in fewer lines of codes."},
+    {"JS: Why would you use Event Delegation over Event Listeners": "When an element in the DOM is clicked, the event bubbles all the way up to the parent element (the document and then the window). This allows you to listen for events on the parent item and still detect clicks that happen inside it. Event delegation improves web performance and dynamically renders element."},
+    {"JS: What is hoisting? How does it work?": "Hoisting is the JavaScript interpreter's action of moving all variable and function declarations to the top of the current scope. However, only the actual declarations are hoisted. Any assignments are left where they are."},
+    {"JS: What is prototypal inheritance? How does it work?": ""},
+    {"JS: What is AJAX and How do we use it?": ""},
+    {"JS: What tools and techniques have you used when debugging JavaScript?": "", "question": "Javascript"},
+    {"JS: How do methods differ from functions?": "", "question": "Javascript"}
 ]

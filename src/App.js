@@ -6,6 +6,12 @@ import Questionanswerpanel from './components/questionpanel.js'
 
 import Button from '@material-ui/core/Button';
 
+import FacebookLogin from 'react-facebook-login';
+ 
+const responseFacebook = (response) => {
+  console.log(response);
+}
+
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +34,9 @@ class App extends Component {
       />
     )
   }
+  componentClicked() {
+    console.log("You clicked the Facebook Component");
+  }
   
   render() {
     return (
@@ -41,6 +50,13 @@ class App extends Component {
         <Button variant="contained" color="secondary" onClick={this.updateNumber}>
           New Question
         </Button>
+        <FacebookLogin
+          appId="1088597931155576"
+          autoLoad={true}
+          fields="name,email,picture"
+          onClick={this.componentClicked()}
+          callback={responseFacebook} 
+        />
       </div>
     );
   }
