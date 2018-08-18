@@ -1,12 +1,6 @@
 Node
 
-Why would you choose Node for a project? What kinds of projects is Node particularly well-suited for?
 
-You're given the task of testing the Facebook URI `/friends`. It's used across the Facebook product to return all sorts of information about a user's friends, such as their name, profile photos, and locations, and it's crucial that it always work. Discuss how you would approach testing it. What's important to test and what kind of tests would you write.
-
-What is middleware?
-
-How many threads does node have ?
 
 Is Node primarily a sync or async programing language?
 
