@@ -24,7 +24,20 @@
     {"Node: You're given the task of testing the Facebook URI `/friends`. It's used across the Facebook product to return all sorts of information about a user's friends, such as their name, profile photos, and locations, and it's crucial that it always work. Discuss how you would approach testing it. What's important to test and what kind of tests would you write.": ""},
     {"Node: What is middleware?": "Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next."},
     {"Node: How many threads does node have ?": "Node.js is a single threaded language which in background uses multiple threads to execute asynchronous code."},
-    {"Node: Is Node primarily a sync or async programing language?": ""},
     {"JS: What is the difference between =, ==, and ===?": "=== is strict comparison operator. == is abstract equality; not always dependent on type; = is an assignment operator"},
-    {"React: What is Webpack?": "webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."}
+    {"React: What is Webpack?": "webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."},
+    {"React: How does the React eco-system work with the common MVC pattern that developers are used to?": "React is the VIEW in the MVC structure. When flux is incorporated, the flow of processing is unidirectional instead of bidirectional"},
+    {"React: What is a component?" : "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. There are Functional and Class Components that can be created in React"},
+    {"React: How do you decide what goes into a single component? ": "The UI of an application should be broken down in a component hierarchy"},
+    {"React: What does it mean when a component is stateful?": "The component has a state. Also, stateful components are always class components"},
+    {"React: What is an example of a stateless/static component?": "A component that is more informational, as opposed to functional. Stateless components can take props as well and change as the props change"},
+    {"React: What is JSX used for, and is it required?": "JSX is a Javascript syntax extension. It is used with React to describe what the UI should look like"},
+    {"React: What are some differences between HTML and JSX?": "JSX is an HTML-like syntax for writing JavaScript related to the virtual DOM."},
+    {"React: What happens during the lifecycle of a React component?": "The component may be destroyed, mounted, unmounted..."},
+    {"React: Which method is always required inside a React component?": "Render"},
+    {"React: What is the difference between state and props?": "Props are usually passed down to a child component from a parent component. The state of one component will often become the props of a child component"},
+    {"React: What is the virtual DOM?": "In React, for every DOM object, there is a corresponding virtual DOM object. A virtual DOM object is a representation of a DOM object, like a lightweight copy."},
+    {"React: In a React application, where should you store the state?": "State should be stored in the constructor of a stateful component."},
+    {"React: Using redux, what is the difference between an action and a reducer?": "Every time your application wants to change the state of the app, it should dispatch an action. Reducers are responsible for modifying the application state based on an action."},
+    {"React: In React, a component's render method can only render a single root node.  Why?" :"Applications built with just React usually have a single root DOM node. If you are integrating React into an existing app, you may have as many isolated root DOM nodes as you like."}
 ]

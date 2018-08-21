@@ -12,36 +12,6 @@ What's the difference between Find and FindOne in Mongoose?
 
 
 
-React
-
-How does the React eco-system work with the common MVC pattern that developers are used to?
-
-What is a component?
-
-How do you decide what goes into a single component? 
-
-What does it mean when a component is "stateful"?
-
-What is an example of a stateless/static component?
-
-What is JSX used for, and is it required?
-
-What are some differences between HTML and JSX?
-
-What happens during the lifecycle of a React component?
-
-Which method is always required inside a React component?
-
-What is the difference between state and props?
-
-What is the virtual DOM?
-
-In a React application, where should you store the state?
-
-Using redux, what is the difference between an action and a reducer?
-
-In React, a component's render method can only render a single root node.  Why?
-
 
 
 Comp. Science Fundamentals
