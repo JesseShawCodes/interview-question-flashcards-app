@@ -6,12 +6,6 @@ import Questionanswerpanel from './components/questionpanel.js'
 
 import Button from '@material-ui/core/Button';
 
-// import FacebookLogin from 'react-facebook-login';
-/*
-const responseFacebook = (response) => {
-  console.log(response);
-}
-*/
 
 class App extends Component {
   constructor(props) {
